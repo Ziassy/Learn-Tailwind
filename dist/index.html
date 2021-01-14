@@ -5,40 +5,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./tailwind.css">
+  <link rel="stylesheet" href="./style.css">
   <title>Learn Tailwind</title>
 </head>
 
 <body>
-  <div class="container mx-auto mt-12">
-    <h1 class="text-2xl text-blue-700 font-bold mb-3">Some Awesome Button</h1>
-    <button class="btn-blue">
-      Blue Button
-    </button>
-
-    <button class="btn-green">
-      Green Button
-    </button>
-  </div>
-
-  <div class="container mx-auto mt-12">
-    <h1 class="text-2xl text-blue-700 font-bold mb-3">Misterius cards</h1>
-    <div class="grid grid-cols-4 grid-rows-2 gap-4">
-      <div class="col-span-4 sm:col-span-2 row-span-2 bg-blue-100 text-center p-4">
-        colom 2 row 2
-      </div>
-      <div class="col-span-4 sm:col-span-1 card2">
-        colum 1
-      </div>
-      <div class="col-span-4 sm:col-span-1 card2">
-        colum 2
-      </div>
-      <div class="col-span-4 sm:col-span-1 card2">
-        colum 3
-      </div>
-      <div class="col-span-4 sm:col-span-1 card2">
-        colum 4
+  <header>
+    <div class="bg-gray-50">
+      <div class="flex justify-between p-1 px-44">
+        <p class="text-gray-400">Tentang kami Call +628-757-304-428</p>
+        <p class="text-gray-400">Butuh bantuan dan kerjasama? BengkelU Call +628-757-304-428</p>
       </div>
     </div>
+    <nav class="flex justify-between py-3 items-center px-28">
+      <img src="../public/Logo-bengkelU.png" class="w-48" alt="BengkelU Logo">
+      <ul class="flex text-lg">
+        <li>
+          <a href="#" class="px-4 py-4">About Us</a>
+        </li>
+        <li>
+          <a href="#" class="px-4 py-4">Services</a>
+        </li>
+        <li>
+          <a href="#" class="px-4 py-4">Jenis Kendaraan</a>
+        </li>
+        <li>
+          <a href="#" class="px-4 py-4">Pusat Bantuan</a>
+        </li>
+        <li>
+          <a href="#"
+            class="border-2 border-blue-400 text-blue-400 font-bold transition duration-150 cursor-pointer py-1 px-4 ml-6 rounded-md">Sign
+            In</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="bg-gray-50">
+      <div class="jumbo-tron px-28">
+        <img src="../public/jumbot-tron.jpg" alt="Bengkel U">
+      </div>
+    </div>
+  </header>
+
+  <div id="Main-content" class="px-28 my-12">
+    <h1 class="text-4xl font-semibold">Our Services</h1>
   </div>
 
 </body>
